@@ -7,6 +7,11 @@
     "defence-cli": "^1.0.5",
     "replace-require-self": "^1.1.0"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
   "license": "MIT",
   "repository": "kemitchell/alphabet-numbering.js",
   "scripts": {
