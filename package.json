@@ -1,0 +1,8 @@
+{
+  "name": "alphabet-numbering",
+  "version": "0.0.0",
+  "description": "number items using letters of an alphabet",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/alphabet-numbering.js",
+  "license": "MIT"
+}
