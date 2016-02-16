@@ -1,8 +1,15 @@
 {
   "name": "alphabet-numbering",
-  "version": "0.0.0",
   "description": "number items using letters of an alphabet",
+  "version": "0.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "devDependencies": {
+    "defence-cli": "^1.0.5",
+    "replace-require-self": "^1.1.0"
+  },
+  "license": "MIT",
   "repository": "kemitchell/alphabet-numbering.js",
-  "license": "MIT"
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
 }
