@@ -5,7 +5,8 @@
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "devDependencies": {
     "defence-cli": "^1.0.5",
-    "replace-require-self": "^1.1.0"
+    "replace-require-self": "^1.1.0",
+    "standard": "^8.0.0-beta.5"
   },
   "files": [
     "LICENSE",
@@ -15,6 +16,7 @@
   "license": "MIT",
   "repository": "kemitchell/alphabet-numbering.js",
   "scripts": {
+    "lint": "standard",
     "test": "defence README.md | replace-require-self | node"
   }
 }
