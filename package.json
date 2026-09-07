@@ -3,20 +3,15 @@
   "description": "number items using letters of an alphabet",
   "version": "1.0.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "type": "module",
+  "main": "index.js",
   "devDependencies": {
-    "defence-cli": "^1.0.5",
-    "replace-require-self": "^1.1.0",
-    "standard": "^8.0.0-beta.5"
+    "defence-cli": "^3.0.1"
   },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.js"
-  ],
-  "license": "MIT",
+  "files": [],
+  "license": "BlueOak-1.0.0",
   "repository": "kemitchell/alphabet-numbering.js",
   "scripts": {
-    "lint": "standard",
-    "test": "defence README.md | replace-require-self | node"
+    "test": "defence -i javascript README.md | sed \"s!from 'alphabet-numbering'!from './index.js'!\" | node"
   }
 }

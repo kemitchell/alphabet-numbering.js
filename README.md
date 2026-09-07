@@ -1,10 +1,10 @@
 ```javascript
-var alpabetnumbering = require('alphabet-numbering')
-var assert = require('assert')
+import alpabetnumbering from 'alphabet-numbering'
+import assert from 'node:assert'
 
 // Like CSS' lower-alpha
 
-var englishAlphaNumbering = alpabetnumbering([
+const englishAlphaNumbering = alpabetnumbering([
   'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
   'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
 ])
@@ -17,7 +17,7 @@ assert.equal(englishAlphaNumbering(18432), 'aafx')
 
 // A made-up alphabet numbering
 
-var xyzAlphaNumbering = alpabetnumbering([ 'x', 'y', 'z' ])
+const xyzAlphaNumbering = alpabetnumbering([ 'x', 'y', 'z' ])
 
 assert.equal(xyzAlphaNumbering(1), 'x')
 
